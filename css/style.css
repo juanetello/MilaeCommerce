@@ -1,68 +1,79 @@
 /* ESTILOS HOME */
 
-.bg-black{
-  background-color: #801336;
+.bg-black {
+    background-color: #801336;
 }
 
 .data {
-  background-color: #2d132c;
+    background-color: #2d132c;
 }
 
 /* TEXTO SLIDER */
 
-.carousel-caption{
-  top:200px;
+.carousel-caption {
+    top: 200px;
 }
+
 /* BG SOCALO NARANJA */
 
-.bg-orange{
-  background-color: #801336;color: aliceblue;font-weight:600;text-align:center
+.bg-orange {
+    background-color: #801336;
+    color: aliceblue;
+    font-weight: 600;
+    text-align: center
 }
 
-.m-right{
-  border: 2px solid #801336; border-right: 2px solid white;
+.m-right {
+    border: 2px solid #801336;
+    border-right: 2px solid white;
 }
 
-.underline{
-  width: 100px; height:2px; background-color: orangered;
+.underline {
+    width: 100px;
+    height: 2px;
+    background-color: orangered;
 }
 
 /* FONDO GRIS */
 
-.bg-light-gray{
-  background-color: rgba(111,111,111,0.09)
+.bg-light-gray {
+    background-color: rgba(111, 111, 111, 0.09)
 }
 
 /* RESPONSIVE */
 
-.media img{
-  max-width:120px;
-  height:auto;
+.media img {
+    max-width: 120px;
+    height: auto;
 }
 
 /* SUBRAYADO */
 
-.underline-blue{
-  width: 70px; height: 2px; background-color: #801336;
+.underline-blue {
+    width: 70px;
+    height: 2px;
+    background-color: #801336;
 }
 
-.underline-black{
-  width: 70px; height: 2px; background-color: black;
+.underline-black {
+    width: 70px;
+    height: 2px;
+    background-color: black;
 }
 
 /* CUERPO PRODUCTOS */
 
-.card-body{
-  text-align: center;
+.card-body {
+    text-align: center;
 }
 
 /* FOOTER */
 
 .bg-footer {
-  background-color: #801336;
+    background-color: #801336;
 }
 
 /* FAQ */
 .fa, .fas {
-color: #801336; 
+    color: #801336;
 }
