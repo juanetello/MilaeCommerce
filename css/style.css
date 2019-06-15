@@ -61,3 +61,8 @@
 .bg-footer {
   background-color: #801336;
 }
+
+/* FAQ */
+.fa, .fas {
+color: #801336; 
+}
