@@ -83,6 +83,16 @@
 textarea {
     resize: none;
 }
+.row{
+  margin-left:  0;
+  margin-right: 0;
+}
+
+.form-check a.reg{
+  padding-left: 35%;
+}
+
+
 
 .botones {
     margin-top: 5vh;
@@ -92,11 +102,8 @@ textarea {
     margin: 1vh 0;
 }
 
-.caja-register {
-    background-color: #5588a3;
-}
 
-.caja-login, .caja-contacto {
+.caja-login, .caja-contacto, .caja-register {
     background-color: rgba(0, 209, 255, 0.35);
 }
 
@@ -124,20 +131,28 @@ textarea {
     margin-top: 1vh;
 }
 
+.bg-contacto, .bg{
+  width: 100%;
+  height: 100vh;
+}
+
+.reg{
+  width: 100%;
+  height: 150vh;
+}
+
+
+
 @media screen and (min-width: 600px) {
     .bg {
         /* background-size: 150%; */
         background: url("../img/perritos_3.jpg") no-repeat;
-        width: 100%;
-        height: 100vh;
         background-size: 200%;
     }
 
     .bg-contacto {
         /* background-size: 150%; */
         background: url("../img/perro-fondo-5.jpg") no-repeat;
-        width: 100%;
-        height: 100vh;
         background-size: 200%;
     }
 }

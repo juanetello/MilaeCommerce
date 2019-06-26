@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/bootstrap4.css" rel="stylesheet">
     <!-- Estilos -->
@@ -17,137 +18,141 @@
 <body>
 
 <!-- Botonera -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-black static-top">
-    <div class="container">
-        <a class="navbar-brand" href="index.html">
-            <img alt="" class="mila-logo" src="img/miladogo2.png">
-        </a>
-        <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
-                class="navbar-toggler" data-target="#navbarResponsive" data-toggle="collapse" type="button">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">INICIO
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">CONTACTO</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black static-top">
+      <div class="container">
+          <a class="navbar-brand" href="index.html">
+              <img alt="" class="mila-logo" src="img/miladogo2.png">
+          </a>
+          <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
+                  class="navbar-toggler" data-target="#navbarResponsive" data-toggle="collapse" type="button">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="index.html">INICIO
+                          <span class="sr-only">(current)</span>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="contacto.html">CONTACTO</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+</header>
 
 <!--Profile-->
-<h1>Mi Perfil</h1>
+<main>
+  <h1>Mi Perfil</h1>
 
-<br>
-<div class="panel widget light-widget panel-bd-top">
-    <div class="panel-heading no-title"></div>
-    <div class="panel-body">
-        <div class="text-left vd_info-parent">
-            <img alt="example image" src="img/new_profile_pic.jpg"></div>
-        <div class="row">
-            <div class="col-xs-12">
-                <a class="btn vd_btn vd_bg-green btn-xs btn-block no-br">
-                    <i class="fa fa-check-circle append-icon"></i>
-                    Amigos
-                </a>
-            </div>
-            <div class="col-xs-12">
-                <a class="btn vd_btn vd_bg-grey btn-xs btn-block no-br">
-                    <i class="fa fa-envelope append-icon"></i>
-                    Enviar Mensaje
-                </a>
-            </div>
-        </div>
-        <h2 class="font-semibold mgbt-xs-5">Carlos Milanesa</h2>
-        <p>Ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-            sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-        <div class="mgtp-20">
-            <table class="table table-striped table-hover">
-                <tbody>
-                <tr>
-                    <td style="width:60%;">Estado</td>
-                    <td><span class="label label-success">Activo</span></td>
-                </tr>
-                <tr>
-                    <td>Calificacion usuario</td>
-                    <td><i class="fa fa-star vd_yellow fa-fw">
-                    </i><i class="fa fa-star vd_yellow fa-fw"></i><i class="fa fa-star vd_yellow fa-fw"></i><i
-                            class="fa fa-star vd_yellow fa-fw"></i><i class="fa fa-star vd_yellow fa-fw"></i></td>
-                </tr>
-                <tr>
-                    <td>Miembro Desde</td>
-                    <td> Enero 07, 2015</td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-</div>
-<!--Productos comprados-->
-<div class="container pt-5">
-    <h4>Productos comprados</h4>
-    <div class="row">
-        <div class="col-md-3">
-            <div class="card">
-                <img alt="img" class="card-img-top" src="img/prod1.jpeg">
-                <div class="card-body">
-                    <h4>PROD-1</h4>
-                    <h6>$67.87</h6>
-                    <button class="btn btn-danger"><i aria-hidden="true" class="fa fa-cart-plus"></i> Comprado
-                    </button>
-                </div>
-            </div>
-        </div>
+  <br>
+  <div class="panel widget light-widget panel-bd-top">
+      <div class="panel-heading no-title"></div>
+      <div class="panel-body">
+          <div class="text-left vd_info-parent">
+              <img alt="example image" src="img/new_profile_pic.jpg"></div>
+          <div class="row">
+              <div class="col-xs-12">
+                  <a class="btn vd_btn vd_bg-green btn-xs btn-block no-br">
+                      <i class="fa fa-check-circle append-icon"></i>
+                      Amigos
+                  </a>
+              </div>
+              <div class="col-xs-12">
+                  <a class="btn vd_btn vd_bg-grey btn-xs btn-block no-br">
+                      <i class="fa fa-envelope append-icon"></i>
+                      Enviar Mensaje
+                  </a>
+              </div>
+          </div>
+          <h2 class="font-semibold mgbt-xs-5">Carlos Milanesa</h2>
+          <p>Ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+              sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+          <div class="mgtp-20">
+              <table class="table table-striped table-hover">
+                  <tbody>
+                  <tr>
+                      <td style="width:60%;">Estado</td>
+                      <td><span class="label label-success">Activo</span></td>
+                  </tr>
+                  <tr>
+                      <td>Calificacion usuario</td>
+                      <td><i class="fa fa-star vd_yellow fa-fw">
+                      </i><i class="fa fa-star vd_yellow fa-fw"></i><i class="fa fa-star vd_yellow fa-fw"></i><i
+                              class="fa fa-star vd_yellow fa-fw"></i><i class="fa fa-star vd_yellow fa-fw"></i></td>
+                  </tr>
+                  <tr>
+                      <td>Miembro Desde</td>
+                      <td> Enero 07, 2015</td>
+                  </tr>
+                  </tbody>
+              </table>
+          </div>
+      </div>
+  </div>
+  <!--Productos comprados-->
+  <div class="container pt-5">
+      <h4>Productos comprados</h4>
+      <div class="row">
+          <div class="col-md-3">
+              <div class="card">
+                  <img alt="img" class="card-img-top" src="img/prod1.jpeg">
+                  <div class="card-body">
+                      <h4>PROD-1</h4>
+                      <h6>$67.87</h6>
+                      <button class="btn btn-danger"><i aria-hidden="true" class="fa fa-cart-plus"></i> Comprado
+                      </button>
+                  </div>
+              </div>
+          </div>
 
-        <div class="col-md-3">
-            <div class="card">
-                <img alt="img" class="card-img-top" src="img/prod1.jpeg">
-                <div class="card-body">
-                    <h4>PROD-2</h4>
-                    <h6>$67.87</h6>
-                    <button class="btn btn-danger">
-                        <i aria-hidden="true" class="fa fa-cart-plus"></i> Comprado recientemente
-                    </button>
-                </div>
-            </div>
-        </div>
+          <div class="col-md-3">
+              <div class="card">
+                  <img alt="img" class="card-img-top" src="img/prod1.jpeg">
+                  <div class="card-body">
+                      <h4>PROD-2</h4>
+                      <h6>$67.87</h6>
+                      <button class="btn btn-danger">
+                          <i aria-hidden="true" class="fa fa-cart-plus"></i> Comprado recientemente
+                      </button>
+                  </div>
+              </div>
+          </div>
 
-        <div class="col-md-3">
-            <div class="card">
-                <img alt="img" class="card-img-top" src="img/prod1.jpeg">
-                <div class="card-body">
-                    <h4>PROD-3</h4>
-                    <h6>$67.87</h6>
-                    <button class="btn btn-danger"><i aria-hidden="true" class="fa fa-cart-plus"></i> Comprado
-                    </button>
-                </div>
-            </div>
-        </div>
+          <div class="col-md-3">
+              <div class="card">
+                  <img alt="img" class="card-img-top" src="img/prod1.jpeg">
+                  <div class="card-body">
+                      <h4>PROD-3</h4>
+                      <h6>$67.87</h6>
+                      <button class="btn btn-danger"><i aria-hidden="true" class="fa fa-cart-plus"></i> Comprado
+                      </button>
+                  </div>
+              </div>
+          </div>
 
-        <div class="col-md-3">
-            <div class="card">
-                <img alt="img" class="card-img-top" src="img/prod1.jpeg">
-                <div class="card-body">
-                    <h4>PROD-4</h4>
-                    <h6>$67.87</h6>
-                    <button class="btn btn-danger"><i aria-hidden="true" class="fa fa-cart-plus"></i> Ultima Compra
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+          <div class="col-md-3">
+              <div class="card">
+                  <img alt="img" class="card-img-top" src="img/prod1.jpeg">
+                  <div class="card-body">
+                      <h4>PROD-4</h4>
+                      <h6>$67.87</h6>
+                      <button class="btn btn-danger"><i aria-hidden="true" class="fa fa-cart-plus"></i> Ultima Compra
+                      </button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 
+</main>
+<footer>
 
-<!-- FOOTER -->
-<section>
-    <footer class="page-footer font-small mdb-color pt-4 bg-footer text-light">
+    <section class="page-footer font-small mdb-color pt-4 bg-footer text-light">
 
         <!-- Footer Links -->
         <div class="container text-center text-md-left">
@@ -273,23 +278,20 @@
         </div>
         <!-- Footer Links -->
 
-    </footer>
-</section>
+    </section>
+
 <!-- MAPA -->
-<section>
-    <div class="z-depth-1-half map-container" id="map-container-google-1" style="height: 200px">
-        <iframe
-                allowfullscreen
-                frameborder="0"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53608.97749195639!2d-68.89353859948214!3d-32.88333032049617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C+Capital%2C+Mendoza!5e0!3m2!1ses-419!2sar!4v1561070107721!5m2!1ses-419!2sar"
-                style="border:0"></iframe>
+
+    <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 200px">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53608.97749195639!2d-68.89353859948214!3d-32.88333032049617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C+Capital%2C+Mendoza!5e0!3m2!1ses-419!2sar!4v1561070107721!5m2!1ses-419!2sar"
+                frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
-</section>
+
 <!-- Copyright -->
-<div class="footer-copyright text-center py-3 bg-copy text-light">© 2019 - MILA DOGO - <strong>Todos los derechos
-    reservados.</strong>
-</div>
+    <div class="container-fluid footer-copyright text-center py-3 bg-copy text-light">© 2019 - MILA DOGO - <strong>Todos los derechos reservados.</strong>
+    </div>
 <!-- Copyright -->
+</footer>
 
 
 </body>

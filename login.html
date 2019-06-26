@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap4.css">
     <!-- Estilos -->
@@ -16,67 +17,72 @@
 </head>
 
 <body class="caja-login">
-<nav class="navbar navbar-expand-lg navbar-dark bg-black static-top">
-    <div class="container">
-        <a class="navbar-brand" href="index.html">
-            <img src="img/miladogo2.png" class="mila-logo" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">INICIO
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">CONTACTO</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="cuenta.html">SESIÓN</a>
-                </li>
-            </ul>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black static-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/miladogo2.png" class="mila-logo" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">INICIO
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">CONTACTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cuenta.html">SESIÓN</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
+</header>
 
 
-<section class="container-fluid bg">
-    <section class="row justify-content-center">
-        <section class="col-10 col-sm-6 col-md-4 col-lg-3">
-            <form class="form-container w-100">
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                           placeholder="Email">
-                    <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu email con nadie</small>
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Contraseña</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
-                </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Mantener sesión iniciada</label>
-                    <a href="register.html" style="display: block; padding-left: 35%;">Registrarse</a>
-                </div>
-                <div class="">
-                    <button type="submit" class="btn btn-outline-primary btn-block">Ingresar</button>
-                </div>
-            </form>
+<main>
+  <section class="container-fluid bg">
+      <section class="row justify-content-center">
+          <section class="col-10 col-sm-6 col-md-4 col-lg-3">
+              <form class="form-container w-100">
+                  <div class="form-group">
+                      <label for="exampleInputEmail1">Email</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                             placeholder="Email" required>
+                      <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu email con nadie</small>
+                  </div>
+                  <div class="form-group">
+                      <label for="exampleInputPassword1">Contraseña</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" required>
+                  </div>
+                  <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Mantener sesión iniciada</label>
+                      <a class="reg" href="register.html">Registrarse</a>
+                  </div>
+                  <div class="">
+                      <button type="submit" class="btn btn-outline-primary btn-block">Ingresar</button>
+                  </div>
+              </form>
 
-        </section>
+          </section>
 
-    </section>
+      </section>
 
-</section>
+  </section>
+</main>
 
+<footer>
 <!-- FOOTER -->
-<section>
-    <footer class="page-footer font-small mdb-color pt-4 bg-footer text-light">
+    <section class="page-footer font-small mdb-color pt-4 bg-footer text-light">
 
         <!-- Footer Links -->
         <div class="container text-center text-md-left">
@@ -202,20 +208,21 @@
         </div>
         <!-- Footer Links -->
 
-    </footer>
-</section>
+    </section>
+
 <!-- MAPA -->
-<section>
+
     <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 200px">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53608.97749195639!2d-68.89353859948214!3d-32.88333032049617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C+Capital%2C+Mendoza!5e0!3m2!1ses-419!2sar!4v1561070107721!5m2!1ses-419!2sar"
                 frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
-</section>
+
 <!-- Copyright -->
-<div class="footer-copyright text-center py-3 bg-copy text-light">© 2019 - MILA DOGO - <strong>Todos los derechos
-    reservados.</strong>
-</div>
+    <div class="container-fluid footer-copyright text-center py-3 bg-copy text-light">© 2019 - MILA DOGO - <strong>Todos los derechos reservados.</strong>
+    </div>
 <!-- Copyright -->
+</footer>
+
 
 
 <script src="https://kit.fontawesome.com/62cc376e3d.js"></script>
