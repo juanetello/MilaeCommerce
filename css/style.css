@@ -1,3 +1,34 @@
+
+
+
+
+/* ESTILOS CARRITO */
+div div.articulo{
+   box-shadow: 0px 0px 10px 0px #000;
+}
+/* div.cont-img{
+  padding: 5%;
+} */
+
+/* #myTabContent{
+  display: table;
+}
+
+#guardado, #carrito{
+  display: table-cell;
+} */
+/* div button.carrito{
+  position: relative;
+  top: 20vh;
+} */
+
+
+div img.card-img{
+  /* border: 3px solid rgb(193, 193, 193);
+  border-radius: 10px; */
+  margin-left: 0 !important;
+}
+
 /* ESTILOS HOME */
 .bg-black {
     background-color: #145374;
