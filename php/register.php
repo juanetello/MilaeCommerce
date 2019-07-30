@@ -25,6 +25,7 @@ $userDefault = "";
 $domicilioDefault = "";
 $nacimientoDefault = "";
 $avatarDefault = "";
+$emailDefault = "";
 
 
 
@@ -48,6 +49,7 @@ if ($_POST) {
   $domicilioDefault = $_POST["domicilio"];
   $nacimientoDefault = $_POST["nacimiento"];
   $avatarDefault = "Archivo: ".$_FILES["avatar"]["name"];
+  $emailDefault = $_POST["email"];
 
   //echo "$avatarDefault";exit;
 
@@ -256,7 +258,7 @@ if ($_POST) {
               <div class="form-group">
                   <label for="email" class="d-block text-center text-white bg-primary">Email</label>
                   <input type="text" class="form-control" id="email" name="email" aria-describedby="emailHelp"
-                         placeholder="Ingrese su email" >
+                         placeholder="Ingrese su email" value="<?=$emailDefault ?>" >
                   <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu email con nadie</small>
                   <?php if($_POST && ($_POST["email"] == "" || filter_var($_POST["email"], FILTER_VALIDATE_EMAIL) == false)): ?>
                      <?php foreach ($errores as $error): ?>
