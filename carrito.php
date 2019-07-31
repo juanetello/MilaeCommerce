@@ -15,7 +15,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-black static-top">
           <div class="container">
-              <a class="navbar-brand" href="index.html">
+              <a class="navbar-brand" href="index.php">
                   <img src="img/miladogo2.png" class="mila-logo" alt="">
               </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
@@ -25,7 +25,7 @@
               <div class="collapse navbar-collapse" id="navbarResponsive">
                   <ul class="navbar-nav ml-auto">
                       <li class="nav-item active">
-                          <a class="nav-link" href="index.html">INICIO
+                          <a class="nav-link" href="index.php">INICIO
                               <span class="sr-only">(current)</span>
                           </a>
                       </li>
@@ -33,7 +33,7 @@
                           <a class="nav-link" href="contacto.html">CONTACTO</a>
                       </li>-->
                       <li class="nav-item">
-                          <a class="nav-link" href="cuenta.html">SESIÓN</a>
+                          <a class="nav-link" href="cuenta.php">SESIÓN</a>
                       </li>
                   </ul>
               </div>
@@ -49,10 +49,10 @@
         <div role="">
           <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item">
-              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#carrito" role="tab" aria-controls="home" aria-selected="true">Carrito(0)</a>
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#carrito" role="tab" aria-controls="home" aria-selected="true">Carrito (1)</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#guardado" role="tab" aria-controls="profile" aria-selected="false">Guardado(0)</a>
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#guardado" role="tab" aria-controls="profile" aria-selected="false">Guardado (0)</a>
             </li>
           </ul>
           <div class="tab-content bg-white" id="myTabContent">

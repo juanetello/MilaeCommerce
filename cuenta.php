@@ -21,7 +21,7 @@
 <header>
   <nav class="navbar navbar-expand-lg navbar-dark bg-black static-top">
       <div class="container">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.php">
               <img alt="" class="mila-logo" src="img/miladogo2.png">
           </a>
           <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
@@ -31,12 +31,12 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
               <ul class="navbar-nav ml-auto">
                   <li class="nav-item active">
-                      <a class="nav-link" href="index.html">INICIO
+                      <a class="nav-link" href="index.php">INICIO
                           <span class="sr-only">(current)</span>
                       </a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="contacto.html">CONTACTO</a>
+                      <a class="nav-link" href="contacto.php">CONTACTO</a>
                   </li>
               </ul>
           </div>
@@ -163,16 +163,16 @@
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                     <h6 class="text-uppercase mb-4 font-weight-bold">OFRECEMOS:</h6>
                     <p>
-                        <a href="#!">ALIMENTOS</a>
+                        ALIMENTOS
                     </p>
                     <p>
-                        <a href="#!">CORREAS-STRAPS</a>
+                        CORREAS-STRAPS
                     </p>
                     <p>
-                        <a href="#!">JUGUETES</a>
+                        JUGUETES
                     </p>
                     <p>
-                        <a href="#!">COLCHONES</a>
+                        COLCHONES
                     </p>
                 </div>
                 <!-- Grid column -->
@@ -183,16 +183,7 @@
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                     <h6 class="text-uppercase mb-4 font-weight-bold">MENÚ</h6>
                     <p>
-                        <a href="#!">INICIO</a>
-                    </p>
-                    <p>
-                        <a href="#!">PRODUCTOS</a>
-                    </p>
-                    <p>
-                        <a href="#!">FAQ</a>
-                    </p>
-                    <p>
-                        <a href="#!">CONTACTO</a>
+                        <a href="index.php">INICIO</a>
                     </p>
                 </div>
 

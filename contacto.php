@@ -19,7 +19,7 @@
 <header>
   <nav class="navbar navbar-expand-lg navbar-dark bg-black static-top">
       <div class="container">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.php">
               <img src="img/miladogo2.png" class="mila-logo" alt="">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
@@ -29,15 +29,15 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
               <ul class="navbar-nav ml-auto">
                   <li class="nav-item active">
-                      <a class="nav-link" href="index.html">INICIO
+                      <a class="nav-link" href="index.php">INICIO
                           <span class="sr-only">(current)</span>
                       </a>
                   </li>
                   <!--<li class="nav-item">
-                      <a class="nav-link" href="contacto.html">CONTACTO</a>
+                      <a class="nav-link" href="contacto.php">CONTACTO</a>
                   </li>-->
                   <li class="nav-item">
-                      <a class="nav-link" href="cuenta.html">SESIÓN</a>
+                      <a class="nav-link" href="cuenta.php">SESIÓN</a>
                   </li>
               </ul>
           </div>

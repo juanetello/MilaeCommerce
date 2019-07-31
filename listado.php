@@ -30,7 +30,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">INICIO
+            <a class="nav-link" href="index.php">INICIO
               <span class="sr-only">(current)</span>
             </a>
           </li>
@@ -38,10 +38,7 @@
             <a class="nav-link" href="#productos">PRODUCTOS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#FAQ">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacto.html">CONTACTO</a>
+            <a class="nav-link" href="contacto.php">CONTACTO</a>
           </li>
         </ul>
       </div>
@@ -53,47 +50,191 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h4>DETALLE DE PRODUCTO</h4>
+            <h4>NUESTROS PRODUCTOS</h4>
           </div>
         </div>
       </div>
     </div>
-
     <div class="container-fluid pt-5 pb-5 bg-light-gray">
-      <div class="container">
+      <div class="container pt-5">
+        <div class="col-md-12 alert bg-secondary text-center text-white align-center">
+          Categoria 1
+        </div>
         <div class="row">
-              <div class="col-lg-5">
-
-                <!-- Featured image -->
-                <div class="mb-lg-0 mb-4 ">
-                  <img class="img-fluid" src="img/prod1.jpeg" alt="COMI DOGO">
-                  <a>
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-
-              </div>
-              <div class="col-lg-7">
-
-                <!-- CATEGORIA -->
-                <a href="#!" class="green-text">
-                  <h6 class="font-weight-bold mb-3">Comidita 1</h6>
-                </a>
-                <!-- TITULO -->
-                <h3 class="font-weight-bold mb-3"><strong>PRODUCTO</strong></h3>
-                <!-- DESC -->
-                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
-                  placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis.</p>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <!-- COMPRAR -->
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/prod1.jpeg" alt="img" class="card-img-top">
+              <div class="card-body">
+                <h4>PROD-1</h4>
+                <h6>$67.87</h6>
+                <a href="detalle.php">
                 <button class="btn btn-info"><i class="fa fa-cart-plus" aria-hidden="true"></i> Comprar</button>
-
+                </a>
               </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/prod1.jpeg" alt="img" class="card-img-top">
+              <div class="card-body">
+                <h4>PROD-1</h4>
+                <h6>$67.87</h6>
+                <a href="detalle.php">
+                <button class="btn btn-info"><i class="fa fa-cart-plus" aria-hidden="true"></i> Comprar</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/prod1.jpeg" alt="img" class="card-img-top">
+              <div class="card-body">
+                <h4>PROD-1</h4>
+                <h6>$67.87</h6>
+                <a href="detalle.php">
+                <button class="btn btn-info"><i class="fa fa-cart-plus" aria-hidden="true"></i> Comprar</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/prod1.jpeg" alt="img" class="card-img-top">
+              <div class="card-body">
+                <h4>PROD-1</h4>
+                <h6>$67.87</h6>
+                <a href="detalle.php">
+                <button class="btn btn-info"><i class="fa fa-cart-plus" aria-hidden="true"></i> Comprar</button>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    <div class="container-fluid pt-3 pb-5 bg-light-gray">
+      <div class="container pt-5">
+        <div class="col-md-12 alert bg-secondary text-center text-white align-center">
+          Categoria 2
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/prod1.jpeg" alt="img" class="card-img-top">
+              <div class="card-body">
+                <h4>PROD-1</h4>
+                <h6>$67.87</h6>
+                <a href="detalle.php">
+                <button class="btn btn-info"><i class="fa fa-cart-plus" aria-hidden="true"></i> Comprar</button>
+                </a>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/prod1.jpeg" alt="img" class="card-img-top">
+              <div class="card-body">
+                <h4>PROD-1</h4>
+                <h6>$67.87</h6>
+                <a href="detalle.php">
+                <button class="btn btn-info"><i class="fa fa-cart-plus" aria-hidden="true"></i> Comprar</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/prod1.jpeg" alt="img" class="card-img-top">
+              <div class="card-body">
+                <h4>PROD-1</h4>
+                <h6>$67.87</h6>
+                <a href="detalle.php">
+                <button class="btn btn-info"><i class="fa fa-cart-plus" aria-hidden="true"></i> Comprar</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/prod1.jpeg" alt="img" class="card-img-top">
+              <div class="card-body">
+                <h4>PROD-1</h4>
+                <h6>$67.87</h6>
+                <a href="detalle.php">
+                <button class="btn btn-info"><i class="fa fa-cart-plus" aria-hidden="true"></i> Comprar</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid pt-3 pb-5 bg-light-gray">
+      <div class="container pt-5 pb-4">
+        <div class="col-md-12 alert bg-secondary text-center text-white align-center">
+          Categoria 3
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/prod1.jpeg" alt="img" class="card-img-top">
+              <div class="card-body">
+                <h4>PROD-1</h4>
+                <h6>$67.87</h6>
+                <a href="detalle.php">
+                <button class="btn btn-info"><i class="fa fa-cart-plus" aria-hidden="true"></i> Comprar</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/prod1.jpeg" alt="img" class="card-img-top">
+              <div class="card-body">
+                <h4>PROD-1</h4>
+                <h6>$67.87</h6>
+                <a href="detalle.php">
+                <button class="btn btn-info"><i class="fa fa-cart-plus" aria-hidden="true"></i> Comprar</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/prod1.jpeg" alt="img" class="card-img-top">
+              <div class="card-body">
+                <h4>PROD-1</h4>
+                <h6>$67.87</h6>
+                <a href="detalle.php">
+                <button class="btn btn-info"><i class="fa fa-cart-plus" aria-hidden="true"></i> Comprar</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/prod1.jpeg" alt="img" class="card-img-top">
+              <div class="card-body">
+                <h4>PROD-1</h4>
+                <h6>$67.87</h6>
+                <a href="detalle.php">
+                <button class="btn btn-info"><i class="fa fa-cart-plus" aria-hidden="true"></i> Comprar</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
   <!-- FOOTER -->
   <section>
